@@ -1,7 +1,7 @@
-<h1 align="center">Project Struktur Data</h1>
+<h1 align="center">LibraList - Organize Book Metadata</h1>
 
 <p align="center">
-Program ini dibuat dengan menerapkan struktur data Tree (<i>binary tree</i>) serta algorima Hashing, Sorting, dan Searching menggunakan bahasa pemrograman C++
+Program ini dibuat untuk mengelola pengelompokan dan pengkategorian buku berdasarkan metadata, dengan menerapkan algoritma non-cryptographic hash (hash table), sort, dan search
 </p>
 
 
