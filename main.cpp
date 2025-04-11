@@ -1,22 +1,13 @@
 #include <iostream>
-#include "modules/customtree.h"
+#include <vector>
+#include "modules/customhash.h"
 using namespace std;
 
-CustomTree tree;
-
 int main() {
-    CustomTree *pohon = NULL;
-    tambahSimpul(pohon, 25);
-    tambahSimpul(pohon->left, 24);
-    tambahSimpul(pohon->right, 26);
-    tambahSimpul(pohon->left->left, 23);
-    tambahSimpul(pohon->left->right, 27);
-    tambahSimpul(pohon->right->left, 20);
-    tambahSimpul(pohon->right->left->right, 30);
+    vector<Book> listBuku; 
 
-    printBT(pohon);
-
-    preOrder(pohon);
+    bacaCSV(listBuku, "books.csv");
+    cout << listBuku[0].title << endl;
 
     cout << endl;
 }
