@@ -1,7 +1,7 @@
 <h1 align="center">LibraList - Organize Book Metadata</h1>
 
 <p align="center">
-Program ini dibuat untuk mengelola pengelompokan dan pengkategorian buku berdasarkan metadata, dengan menerapkan algoritma non-cryptographic hash (hash table), sort, dan search
+Program ini dibuat untuk mengelola buku berdasarkan metadata, dengan menerapkan algoritma non-cryptographic hash (hash table), sort, dan search
 </p>
 
 
